@@ -165,15 +165,15 @@ static NSDictionary* customCertificatesForHost;
 
     // Workaround for StatusBar appearance bug for iOS 12
     // https://github.com/react-native-community/react-native-webview/issues/62
-      [[NSNotificationCenter defaultCenter] addObserver:self
-                                               selector:@selector(showFullScreenVideoStatusBars)
-                                                   name:UIWindowDidBecomeVisibleNotification
-                                                 object:nil];
+//       [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                selector:@selector(showFullScreenVideoStatusBars)
+//                                                    name:UIWindowDidBecomeVisibleNotification
+//                                                  object:nil];
 
-      [[NSNotificationCenter defaultCenter] addObserver:self
-                                               selector:@selector(hideFullScreenVideoStatusBars)
-                                                   name:UIWindowDidBecomeHiddenNotification
-                                                 object:nil];
+//       [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                selector:@selector(hideFullScreenVideoStatusBars)
+//                                                    name:UIWindowDidBecomeHiddenNotification
+//                                                  object:nil];
       
   }
 #endif // !TARGET_OS_OSX
